@@ -1,0 +1,50 @@
+
+.custom-order-item {
+    position: relative;
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.custom-order-item-finished {
+    text-decoration: line-through;
+    color: #a0a0a0 !important;
+}
+
+.custom-order-item-cancelled {
+    font-style: italic;
+    font-weight: bold;
+    color: #d10303;
+    line-height: 80%;
+    font-size: 18px;
+}
+
+.custom-icon {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.square-icon {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #3ebd1e;
+}
+
+.check-icon {
+    margin: 0;
+    padding: 0;
+    color: #a0a0a0;
+}
+
+.disabled {
+    color: #d3d1ce !important;
+}
+
+

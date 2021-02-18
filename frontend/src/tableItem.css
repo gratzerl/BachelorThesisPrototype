@@ -1,0 +1,84 @@
+.custom-table-item {
+    border: solid 3px #000000 !important;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding: 0;
+    height: auto !important;
+    min-width: 220px;
+    max-width: 240px;
+    width: 100%; 
+    overflow: auto;
+    max-height: 450px;
+    position: relative;
+    border-radius: 0;
+    box-shadow: 3px 8px 14px #888888;
+}
+
+.custom-table-header {
+    padding: 4px 4px 4px 10px !important;
+    border-bottom: solid 2px #000000 !important;
+    overflow: auto;
+    width: auto;
+}
+
+.custom-table-body {
+    padding: 4px 4px 4px 10px !important;
+    overflow-y: scroll;
+    height: auto;
+}
+
+.custom-table-item-accepted {
+    color: rgb(0, 160, 8) !important; 
+    background-color: #d8fcc0;
+}
+
+/*
+    table header elements 
+*/
+
+.custom-table-item-time {
+    float: right;
+    text-align: right;
+    font-size: 14px;
+}
+
+.custom-table-number {
+    bottom: 0;
+    font-size: 26px;
+}
+
+/*
+    Buttons
+*/
+
+.custom-table-button {
+    border: none;
+    padding: 3px;
+    width: 50%;
+    overflow: auto;
+    border-radius: 0 !important;
+}
+
+.custom-accept-table-button {
+    margin: 0;
+    background-image: linear-gradient(to top, rgb(226, 166, 37) 0%, rgb(226, 200, 37) 100%);
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 0px #f2c64f, 0px 2px 0px 0px #ba8501, 0px 4px 5px #999;
+}
+
+.accepted {
+    background-image: linear-gradient(to top, rgb(115, 209, 196) 0%, rgb(150, 247, 234) 100%);
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 0px #84e0d4, 0px 2px 0px 0px #04a38e, 0px 4px 5px #999;
+}
+
+.custom-finish-table-button {
+    margin: 0;   
+    background-image: linear-gradient(to top, rgb(47, 192, 11) 0%, rgb(59, 219, 19) 100%);
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 0px #3ccc18, 0px 2px 2px 0px #1b8900, 0px 4px 5px #999;
+}
+
+.custom-finish-table-button:disabled {
+    background-color: #d3d1ce !important;
+}

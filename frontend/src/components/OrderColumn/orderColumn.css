@@ -1,0 +1,48 @@
+.custom-order-column {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    white-space: pre-line;  
+
+    width: 20%;
+    min-width: 250px;
+    max-width: 300px;
+    max-height: 450px;
+
+    background-color: #c4bdbd;
+    border: solid 1px #000000;
+    box-shadow: 5px 7px 10px #9c9a9a;  
+
+    clear: none;
+    float: right;
+    top: 0;
+    position: relative;
+}
+
+.custom-order-column-list {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.custom-order-column-btn {
+    height: 60%;
+    padding: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.custom-order-column-item {
+    width: auto;
+}
+
+.custom-order-column-modifier-list {
+    padding-left: 20px;
+    display: block;
+
+}
+
+.custom-order-column-modifier-item {
+    margin-bottom: 5px;
+    font-size: 14px;
+}

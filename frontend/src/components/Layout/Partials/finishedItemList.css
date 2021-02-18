@@ -1,0 +1,12 @@
+.custom-finished-item-list {
+    display: block;
+    padding: 20px;
+}
+
+.custom-table {
+    white-space: nowrap;
+}
+
+.custom-table-row {
+    width: 20%;
+}

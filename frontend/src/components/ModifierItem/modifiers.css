@@ -1,0 +1,20 @@
+.custom-modifier-list {
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 20px;
+    width: inherit;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.custom-modifier-item {
+    font-size: 15px !important;
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    padding-left: 30px;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
